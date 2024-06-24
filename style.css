@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+    font-family: "Fira Code", monospace;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: aliceblue;
+}
+
+.nft {
+    border-color: #00A2FF;
+    max-width: 180px;
+    min-width: 18%;
+    min-height: 18%;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.text-main {
+    margin-top: 20px;
+}
+
+.link {
+    color: #66ff48;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #66ff48;
+    text-decoration: underline;
+}
