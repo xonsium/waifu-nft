@@ -10,13 +10,12 @@ body {
 }
 
 .nft {
-    border-color: #00A2FF;
     max-width: 180px;
     min-width: 18%;
     min-height: 18%;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 35px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 35px;
 }
 
 .navbar {
