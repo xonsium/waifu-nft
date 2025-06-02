@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+
+:root {
+    --primary: #66ff48;
+    --bg: #1d1d1d;
+}
+
 * {
     font-family: "Fira Code", monospace;
 }
 
 body {
-    background-color: #1d1d1d;
+    background-color: var(--bg);
     color: aliceblue;
 }
 
@@ -35,29 +41,29 @@ body {
 }
 
 .link {
-    color: #66ff48;
+    color: var(--primary);
     text-decoration: none;
 }
 
 .link:hover {
-    color: #66ff48;
+    color: var(--primary);
     text-decoration: underline;
 }
 
 .button:hover {
     text-decoration: none;
-    background-color: #66ff48;
-    color: #1d1d1d;
+    background-color: var(--primary);
+    color: var(--bg);
 }
 
 .button-dw {
     text-decoration: none;
-    background-color: #66ff48;
-    color: #1d1d1d;
+    background-color: var(--primary);
+    color: var(--bg);
 
 }
 
 .button-dw:hover {
-    background-color: #1d1d1d;
-    color: #66ff48;
+    background-color: var(--bg);
+    color: var(--primary);
 }
